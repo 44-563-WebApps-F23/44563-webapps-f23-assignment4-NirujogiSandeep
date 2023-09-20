@@ -1,0 +1,53 @@
+.speech{
+    font-family: "Lucida Console", "Courier New", sans-serif;
+    font-size: medium;
+    color: black;
+}
+direction{
+    font-family:"Times New Roman", Times, serif;
+    font-size:large;
+    color: black;
+    background-color: aliceblue;
+}
+.direction:hover{
+    background-color: gray;
+    color: tan ;
+}
+.BROVIK{
+    color: cornflowerblue;
+}
+.BROVIK:hover{
+    color:bisque;
+    background-color:bisque;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgb(86, 86, 128);
+    border:dashed;
+}
+.SOLNESS{
+    color:darkblue;
+}
+.SOLNESS:hover{
+    background-color:yellowgreen;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(26, 12, 12, 0.393);
+    border:dotted;
+}
+.KAIA{
+    color:darkblue;
+}
+
+.KAIA:hover{
+    background-color:yellow;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(74, 31, 31, 0.612);
+    border:dotted;
+}
+.RAGNAR{
+    color:darkblue;
+}
+.RAGNAR:hover{
+    background-color:burlywood;
+    text-align: center;
+    text-shadow: 2px 2px 6px black;
+    border:dotted;
+}
