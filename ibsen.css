@@ -3,51 +3,71 @@
     font-size: medium;
     color: black;
 }
-direction{
+.direction{
     font-family:"Times New Roman", Times, serif;
     font-size:large;
     color: black;
-    background-color: aliceblue;
+    background-color: rgb(170, 211, 247);
 }
 .direction:hover{
-    background-color: gray;
     color: tan ;
+    background-color: black;
 }
 .BROVIK{
     color: cornflowerblue;
 }
 .BROVIK:hover{
-    color:bisque;
-    background-color:bisque;
-    text-align: center;
-    text-shadow: 2px 2px 6px rgb(86, 86, 128);
-    border:dashed;
+    background-color:blue;
+    text-shadow: 2px 2px 6px palevioletred;
+    border:solid 2px red ;
+    
+    
 }
 .SOLNESS{
-    color:darkblue;
+    color:cornflowerblue;
 }
 .SOLNESS:hover{
-    background-color:yellowgreen;
-    text-align: center;
-    text-shadow: 2px 2px 6px rgba(26, 12, 12, 0.393);
-    border:dotted;
+    background-color:brown;
+   text-shadow: 2px 2px 6px fuchsia;
+    border:solid 2px red ;
+    
 }
 .KAIA{
-    color:darkblue;
+    color:cornflowerblue;
 }
 
 .KAIA:hover{
-    background-color:yellow;
-    text-align: center;
-    text-shadow: 2px 2px 6px rgba(74, 31, 31, 0.612);
-    border:dotted;
+    background-color:darkorchid;
+    text-align: left;
+    text-shadow: 2px 2px 6px black;
+    border:solid 2px red ;
+    
 }
 .RAGNAR{
-    color:darkblue;
+    color:rgb(14, 81, 205);
 }
 .RAGNAR:hover{
-    background-color:burlywood;
-    text-align: center;
-    text-shadow: 2px 2px 6px black;
-    border:dotted;
+    background-color:palegreen;
+    text-align: left;
+    text-shadow: 2px 2px 6px yellow;
+    border:solid 2px red ;
+
 }
+table{
+    background-color: rgb(46, 122, 147);
+    color:rgb(131, 131, 205);
+    text-align: left;
+    padding: 1px;
+    border:solid 3px rgb(164, 118, 184);
+    margin-bottom: 20px;
+}
+th {
+    background-color:cornflowerblue;
+    color:crimson;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid darkviolet;
+}
+td{border: solid 1px;text-align: left;padding: 9px;}
+tr{background-color: darkgreen;}
+tr:nth-child(even){background-color:darksalmon;color:yellow;}
