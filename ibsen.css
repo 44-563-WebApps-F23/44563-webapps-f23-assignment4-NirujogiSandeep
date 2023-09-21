@@ -71,3 +71,8 @@ th {
 td{border: solid 1px;text-align: left;padding: 9px;}
 tr{background-color: rgba(150, 230, 150, 0.863);}
 tr:nth-child(even){background-color:rgb(252, 174, 149);color:rgb(183, 183, 55);}
+ul.navigation-horizontal{
+    list-style-type: none;
+    margin:3px;
+    padding:5px;
+}
